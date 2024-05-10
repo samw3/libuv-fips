@@ -9,17 +9,6 @@
   exports:
       header-dirs:
           - libuv/include
-#           - ...
-#       lib-dirs:
-#           - RELATIVE LIB SEARCH PATH
-#           - ...
-#       defines:
-#           KEY: VALUE (C preprocessor defines)
-#           ...: ...
       modules:
-          NAME:   libuv
-#   run:
-#       TARGET-NAME:
-#           cwd:    WORKING DIRECTORY FOR 'fips run target'
-#       ...
+          libuv: .
 
